@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Visualizer</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>Queue Visualizer</h1>
+    <a href="../index.html" class="hub-link">← Return to Hub</a>
+
+    <div class="queue-container" id="queue-container"></div>
+
+    <div class="controls">
+        <input type="text" id="queue-input" placeholder="Enter a number">
+        <button onclick="enqueue()">Enqueue</button>
+        <button onclick="dequeue()">Dequeue</button>
+        <button onclick="peekQueue()">Peek</button>
+        <button onclick="clearQueue()">Clear</button>
+    </div>
+
+    <script src="queue.js"></script>
+</body>
+</html>
+

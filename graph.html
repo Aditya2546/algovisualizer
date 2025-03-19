@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Graph Visualizer</h1>
+
+    <a href="index.html" class="hub-link">← Return to Hub</a>
+
+    <div class="controls">
+        <input type="text" id="node-name" placeholder="Enter node name">
+        <button onclick="addNode()">Add Node</button>
+        <input type="text" id="edge-start" placeholder="Start node">
+        <input type="text" id="edge-end" placeholder="End node">
+        <button onclick="addEdge()">Add Edge</button>
+        <button onclick="runDFS()">Run DFS</button>
+        <button onclick="runBFS()">Run BFS</button>
+    </div>
+
+    <svg id="graph-container" width="600" height="400"></svg>
+
+    <script src="graph.js"></script>
+</body>
+</html>
+

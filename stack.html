@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Visualizer</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>Stack Visualizer</h1>
+    <a href="../index.html" class="hub-link">← Return to Hub</a>
+
+    <div class="stack-wrapper">
+        <div class="stack-container" id="stack-container"></div>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="stack-input" placeholder="Enter a number">
+        <button onclick="push()">Push</button>
+        <button onclick="pop()">Pop</button>
+        <button onclick="peek()">Peek</button>
+        <button onclick="clearStack()">Clear</button>
+    </div>
+
+    <script src="stack.js"></script>
+</body>
+</html>

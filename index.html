@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Algorithm Visualizer Hub</h1>
+
+    <div class="visualizer-container">
+        <div class="visualizer" onclick="window.location.href='sorting.html'">
+            <div class="preview sorting-preview">
+                <div class="bar" style="height: 30px;"></div>
+                <div class="bar" style="height: 50px;"></div>
+                <div class="bar" style="height: 80px;"></div>
+                <div class="bar" style="height: 60px;"></div>
+            </div>
+            <p>Sorting Algorithms</p>
+        </div>
+
+        <div class="visualizer" onclick="window.location.href='stack.html'">
+            <div class="preview stack-preview">
+                <div class="stack-element">3</div>
+                <div class="stack-element">2</div>
+                <div class="stack-element">1</div>
+            </div>
+            <p>Stack Visualization</p>
+        </div>
+
+        <div class="visualizer" onclick="window.location.href='queue.html'">
+            <div class="preview queue-preview">
+                <div class="queue-element">1</div>
+                <div class="queue-element">2</div>
+                <div class="queue-element">3</div>
+            </div>
+            <p>Queue Visualization</p>
+        </div>
+
+        <div class="visualizer" onclick="window.location.href='linked-list.html'">
+            <div class="preview linked-list-preview">
+                <div class="list-node">A</div>
+                <div class="arrow">→</div>
+                <div class="list-node">B</div>
+                <div class="arrow">→</div>
+                <div class="list-node">C</div>
+            </div>
+            <p>Linked List Visualization</p>
+        </div>
+
+        <div class="visualizer" onclick="window.location.href='graph.html'">
+            <div class="preview graph-preview">
+                <div class="graph-node">A</div>
+                <div class="graph-line"></div>
+                <div class="graph-node">B</div>
+                <div class="graph-line"></div>
+                <div class="graph-node">C</div>
+            </div>
+            <p>Graph Algorithms</p>
+        </div>
+    </div>
+</body>
+</html>
